@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="border-b bg-white sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
             <Link href="/" className="text-xl font-bold text-indigo-600 flex items-center gap-2">
-              <span>💼</span> HireSphere
+              <span>💼</span> Job Board
             </Link>
             <nav className="flex items-center gap-6">
               <Link href="/" className="text-sm font-medium text-gray-600 hover:text-indigo-600 transition">Find Jobs</Link>
